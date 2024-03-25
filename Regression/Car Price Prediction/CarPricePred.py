@@ -73,7 +73,7 @@ plt.show()
 
 # prediction on testing data
 y_test_pred = linear_reg_model.predict(X_test)
-print("r-squared: ", linear_reg_model.score(X_test, Y_test))
+print("r-squared: ", metrics.r2_score(Y_test, y_test_pred))
 
 sns.scatterplot(x=Y_test, y=y_test_pred)
 plt.xlabel('Actual Values (y_test)')
