@@ -4,7 +4,7 @@
 ![](resources/workflow.png)
 
 ## Data
- Each image in the dataset looks like. It is a 28x28 matrix of integers (from 0 to 255). Each integer represents a color of a pixel.
+ Each image in the dataset is a 28x28 matrix of integers (from 0 to 255). Each integer represents a color of a pixel.
 
 ![](resources/matrix.png)
 
