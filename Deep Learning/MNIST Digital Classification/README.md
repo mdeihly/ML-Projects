@@ -1,4 +1,6 @@
-# Workflow
+# MNIST Digit Classification with Neural Network 
+
+## Workflow
 ![](resources/workflow.png)
 
 ## Data
